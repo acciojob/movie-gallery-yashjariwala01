@@ -1,21 +1,29 @@
-.row1,.row2,.row3,.row4{
-    display: flex;
-    width: 10px;
+/* Your CSS Code here. */
+div .container-fluid{
+    width: 1200px;
 }
+
+.row,.row-2,.row-3,.row-4{
+display: flex;
+}
+.row-4{
+justify-content: center;
+}
+
 img{
-    width:95px;
-    margin:5px;
-    margin-top:50px;
+width: 100px;
+height: 100px;
+margin: 6px;
+margin-top: 40px;
 }
-.row2 {
-  position: relative;
-    left: 337px;
+
+.row-2 img{
+position: relative;
+margin-left: 30px;
+left: 250px;
 }
-.row3 {
-    position: relative;
-      left: 477px;
-  }
-.row4{
-    position:relative;
-    left:593px;
+.row-3 img{
+position: relative;
+margin-left: 30px;
+left: 400px;
 }
