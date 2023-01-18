@@ -1,2 +1,21 @@
-
-/* Your CSS Code here. */
+.row1,.row2,.row3,.row4{
+    display: flex;
+    width: 10px;
+}
+img{
+    width:95px;
+    margin:5px;
+    margin-top:50px;
+}
+.row2 {
+  position: relative;
+    left: 337px;
+}
+.row3 {
+    position: relative;
+      left: 477px;
+  }
+.row4{
+    position:relative;
+    left:593px;
+}
